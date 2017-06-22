@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.yonyou.mapper.RequirementMapper">
+
+	<!-- 通用查询映射结果 -->
+	<resultMap id="BaseResultMap" type="com.yonyou.model.Requirement">
+		<id column="id" property="id" />
+		<result column="create_time" property="createTime" />
+		<result column="requireinfo" property="requireinfo" />
+		<result column="requiredays" property="requiredays" />
+		<result column="pk_project" property="pkProject" />
+		<result column="pk_parent" property="pkParent" />
+		<result column="update_time" property="updateTime" />
+		<result column="delete_flag" property="deleteFlag" />
+		<result column="status" property="status" />
+		<result column="name" property="name" />
+	</resultMap>
+
+</mapper>
